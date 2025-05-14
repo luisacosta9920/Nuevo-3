@@ -1,0 +1,901 @@
+
+ html {
+ 	overflow: -moz-scrollbars-vertical;
+ 	-webkit-overflow-scrolling: touch;
+ }
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	overflow-y: auto;
+	font-family: Arial, Helvetica, Helvetica, sans-serif;
+}
+.thumbgaleria {
+	width:120px !important;
+}
+.container{
+	width: 100%;
+	max-width: 1050px;
+}
+a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #D44028;
+	text-decoration: none !important;
+}
+a:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #D44028;
+	text-decoration: none !important;
+}
+.PaginacionOn {
+	background-color: #D44028;
+	color: #FFFFFF;
+	font-size: 12px;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	margin: 0 2px;
+}
+.PaginacionOff {
+	background-color: #FFFFFF;
+	color: #404040;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+	border: 1px solid #CCCCCC;
+	width: 20px;
+	margin: 0 2px;
+}
+.CeldaAcabado {
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.CeldaAcabadoOn {
+	background-color: #FFFFFF;
+	border: 1px solid #404040;
+}
+.BotonEnviar {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	cursor: hand;
+	cursor: pointer;
+	color: #404040;
+	font-size: 11px;
+	height: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+.BotonEnviarOn {
+	background-color: #D44028;
+	border: 1px solid #CCCCCC;
+	cursor: hand;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 11px;
+	height: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+.FondoRojo {
+	background-color: #D44028;
+}
+.FondoGris {
+	background-color: #b3b3b3;
+}
+.TextoUdVenta {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+}
+.TextoPrecioAnterior {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.Tachado {
+	color: #D44028;
+	text-decoration: line-through;
+}
+.TextoPrecio {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.TextoCabSeccion {
+	color: #D44028;
+	font-size: 16px;
+	font-weight: bold;
+}
+.TextoCabFiltros {
+	color: #404040;
+	font-size: 16px;
+	font-weight: none;
+}
+
+.Titulares {
+	color: #D44028;
+	font-size: 14px;
+	font-weight: bold;
+}
+A.Titulares:hover {
+	color: #D44028;
+	font-size: 14px;
+	font-weight: bold;
+}
+.TextoPie {
+	color: #FFFFFF;
+	font-size: 9pt;
+	font-weight: none;
+	line-height: 18px;
+}
+a.TextoPie:hover{
+	color: #000;
+}
+.Flechitas {
+	color: #D44028;
+	font-size: 9pt;
+	font-weight: none;
+}
+.TextoGris {
+	color: #404040;
+	font-size: 9pt;
+	font-weight: none;
+	text-align: middle;
+}
+
+.TextoMenuTop {
+	font-size: 9pt;
+	font-weight: none;
+	vertical-align: middle;
+	color: #D44028;
+}
+A.TextoMenuTop:hover {
+	font-size: 9pt;
+	font-weight: none;
+	color: #D44028;
+}
+.TextoSubMenu {
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: middle;
+	color: #D44028;
+}
+A.TextoSubMenu:hover {
+	font-size: 13px;
+	font-weight: bold;
+	color: #D44028;
+}
+.cursormano {
+	cursor: hand;
+	cursor: pointer;
+}
+.TextoGuiasOff {
+	color: #404040;
+	font-size: 11px;
+}
+.TextoGuiasOn {
+	color: #D44028;
+	font-size: 11px;
+	line-height: 12px;
+}
+A.TextoGuiasOn:hover {
+	color: #D44028;
+	font-size: 11px;
+	line-height: 12px;
+}
+.CeldaMenuNavegacion {
+	text-align: left;
+	border: 1px solid #D44028;
+}
+
+.TextoMenuNavegacionOff {
+	color: #404040;
+	font-size: 11px;
+	display: inline;
+	margin-bottom: 5px;
+}
+A.TextoMenuNavegacionOff:hover {
+	color: #404040;
+	font-size: 11px;
+}
+.TextoMenuNavegacionOn {
+	color: #D44028;
+	font-size: 11px;
+}
+A.TextoMenuNavegacionOn:hover {
+	color: #D44028;
+	font-size: 11px;
+}
+.TextoSelAcabados {
+	color: #D44028;
+	font-size: 11px;
+}
+.TextoTablaRef {
+	color: #404040;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.FondoOferta {
+	background-color: ffff00;
+}
+.CeldaMenuPrincipalOff {
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: center;
+	/*background-color: #b3b3b3;*/
+	background-color: #D44028;
+	cursor: hand;
+	cursor: pointer;
+}
+.CeldaMenuPrincipal2Off {
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #A41008;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.CeldaMenuPrincipalOn {
+	font-size: 10pt;
+	color: #D44028;
+	text-align: center;
+	background-color: #FFFFFF;
+	cursor: hand;
+	cursor: pointer;
+}
+.CeldaFormBuscador {
+	font-size: 8pt;
+	width: 190px;
+	height: 18px;
+	padding: 1px 2px 2px 2px;
+	color: #333333;
+	vertical-align: bottom;
+	background-color: #ffffff;
+	border: 0px;
+	text-align: left;
+}
+.CeldaFormCarrito {
+	font-size: 8pt;
+	width: 30px;
+	height: 14px;
+	padding: 1px 2px 2px 2px;
+	color: #333333;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border: 1px solid #CCCCCC;
+}
+.CeldaFormEnvio {
+	font-size: 8pt;
+	width: 100%; /*250px;*/
+	height: 20px;
+	padding: 1px 2px 2px 2px;
+	color: #333333;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #ffffff;
+	border: 1px solid #CCCCCC;
+}
+.DesplegableFiltro {
+	font-size: 11px;
+	width: 140px;
+	height: 20px;
+	color: #333333;
+	background-color: #ffffff;
+}
+a.LinkActualizar {
+	font-family: Arial;
+	font-size: 9px;
+	color: #404040;
+}
+a.LinkActualizar:hover {
+	font-family: Arial;
+	font-size: 9px;
+	color: #D44028;
+}
+.TextoConsultar {
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #D44028;
+}
+
+/* David 20171016 ************************/
+.col5 p, .col4 p, .col3 p, .col2 p{
+	margin-bottom: 0px;
+}
+.col5 strong, .col4 strong, .col3 strong, .col2 strong{
+	font-size: 10px;
+}
+.col5, .col4, .col3, .col2{
+	float:left;
+}
+.col5{
+	width: 60%;
+}
+.col4{
+	width: 15%;
+}
+.col3{
+	width: 5%;
+}
+.col2{
+	width: 20%;
+}
+.producto:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+.col2 p{
+	font-size: 16px;
+}
+.col2 p.preciounidad{
+	font-size: 10px;
+	color: grey;
+}
+.separadoroculto {
+	clear:both;
+	height:5px;
+	display:none;
+}
+.TextoCarrito {
+	color: #404040;
+	font-size: 11px;
+}
+	.botonmobile {
+		width:auto;
+		padding:5px;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+		background-color:#FFF;
+		color:#666;
+		border:1px solid #CCC;
+		border-radius: 0px;
+	}
+	
+	.botonmobileRojo {
+		width:auto;
+		padding:5px;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+		background-color:#D44028;
+		color:#FFF;
+		border-radius: 0px;
+		border:1px solid #D44028;
+		font-weight:bold;
+	}
+/**********************proveedores***********************/
+
+.Titulares_privada {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.cabecera_privado {
+	height: 25px;
+	background-color: #D44028;
+}
+a.btn_excel:link, a.btn_excel, .btn_excel {
+	display: inline;
+	height: 30px;
+	border: 1px solid #999999;
+	font-weight: bold;
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 5px;
+	cursor: hand;
+	cursor: pointer;
+	margin: 15px 0;
+}
+a.btn_excel:hover {
+	background-color: #D44028;
+	border: 1px solid #D44028;
+}
+.TextoMenuDestacadosOn {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+a.TextoMenuDestacadosOn {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+a.TextoMenuDestacadosOn:hover {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+.TextoMenuDestacadosOff {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+}
+a.TextoMenuDestacadosOff {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+a.TextoMenuDestacadosOff:hover {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+#main-menu {
+	padding: 0;
+}
+#main-menu li {
+	display: block;
+	float: left;
+	padding: 2px 19px 2px 18px;
+	border-right: solid 1px #FFF;
+}
+#main-menu li:last-child {
+	border-right: 0 none;
+	padding: 2px 19px 2px 20px;
+}
+#main-menu.noacc li {
+	display: block;
+	float: left;
+	padding: 2px 27px 2px 27px;
+	border-right: solid 1px #FFF;
+}
+#main-menu.noacc li:last-child {
+	border-right: 0 none;
+	padding: 2px 24px 2px 25px;
+}
+#menu-mobile {
+	background-color: #D44028;
+	padding: 10px 0 0;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	z-index: 9999;
+}
+#menu-mobile.open {
+	width: 90%;
+	padding-bottom: 10px;
+	background-color: #D44028;
+}
+#menu-mobile .glyphicon {
+	font-size: 17px;
+}
+#menu-mobile ul {
+	padding-left: 10px;
+	margin-bottom: 0;
+}
+#menu-mobile ul li {
+	list-style: none;
+	display: none;
+	margin-top: 5px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+}
+#menu-mobile ul li:first-child {
+	display: block !important;
+	margin-top: 0;
+}
+#menu-mobile ul li a {
+	color: #FFF;
+	display: block;
+}
+#menu-mobile ul li ul li {
+	margin-top: 0;
+	padding-left: 20px;
+}
+#menu-mobile #menulink {
+	width: 100%;
+	min-width: 28px;
+	height: 28px;
+	line-height: 28px;
+	position: relative;
+	top: 0;
+	right: 0;
+	font-size: 17px;
+	display: block;
+}
+.col-familia {
+	border-right: solid 1px #D44028;
+	border-bottom: solid 1px #D44028;
+	padding: 15px;
+	height: 270px;
+}
+.col-familia2 {
+	border-right: solid 1px #D44028;
+	border-bottom: solid 1px #D44028;
+	padding: 15px;
+	height: 440px;
+}
+.col-familia:nth-child(4n) {
+	border-right: 0 none;
+}
+.col-familia2:nth-child(4n) {
+	border-right: 0 none;
+}
+.col-familia-rel {
+	border-right: solid 1px #D44028;
+	padding: 15px;
+	height: 270px;
+}
+.col-familia-rel:nth-child(5n) {
+	border-right: 0 none;
+}
+.col-familia-search {
+	border-right: solid 1px #D44028;
+	border-bottom: solid 1px #D44028;
+	padding: 15px;
+	height: 430px;
+}
+.col-familia-search:nth-child(4n) {
+	border-right: 0 none;
+}
+#buscador {
+	margin: 2px 0;
+}
+#chk_captcha {
+	margin: 10px 0;
+}
+#logo {
+	height: 91px;
+}
+.telefono {
+	font-size: 21px;
+}
+.imgproducto {
+	border-right: solid 1px #D44028;
+	border-bottom: solid 1px #D44028;
+	padding-bottom: 20px;
+}
+.col-tienda {
+	height: 270px;
+	border-bottom: dotted 1px;
+	border-right: dotted 1px;
+}
+
+.resumen{
+	margin-top: 20px;
+}
+
+#oferta .TextoPrecio {
+	font-size: 13px;
+}
+.ordenPaginadorListado {
+	border:1px solid #999999;
+	height:30px;
+	padding:5px;
+	background-color:#f2f2f2;
+}
+
+ .producto {
+	 margin-top: 20px;
+	 border: 1px solid #ccc;
+	 padding: 10px;
+ }
+
+ .eliminar{
+	 text-align: center;
+ }
+
+ .caracteristica{
+	 padding: 15px;
+ }
+.TextoMenuDestacadosOn{
+		padding-top: 10px;
+}
+#slideshow IMG{
+	height: 100%!important;
+}
+.breadcrumsmobile{
+		display: none;
+}
+.breadcrumsmobile select{
+	width: 100%;
+	border: none;
+	color: #404040;
+    font-size: 11px;
+    font-family: Arial;
+    padding: 5px;
+}
+ .cart-min .total{
+	text-align: right;
+}
+.cart-min .total{
+	font-size: 20px;
+}
+ .cart-min .total strong{
+	float:left;
+	text-align: left;
+}
+.TextoMenuNavegacionOn.menu-carrito{
+	 display: block;
+    padding-top: 12px;
+}
+.campocorte {
+	width:25%;
+}
+@media screen and (max-width: 1023px) {
+.campocorte {
+	width:50%;
+}
+.separadoroculto {
+	clear:both;
+	height:5px;
+	display:block;
+}
+	#oferta {
+		display: none;
+	}
+	#logo {
+		padding-top: 10px;
+	}
+	#cabecera {
+		margin-bottom: 15px;
+	}
+	.col-familia:nth-child(4n) {
+		border-right: solid 1px #D44028;
+		border-bottom: solid 1px #D44028;
+	}
+	.col-familia2:nth-child(4n) {
+		border-right: solid 1px #D44028;
+		border-bottom: solid 1px #D44028;
+	}
+	.col-familia:nth-child(3n) {
+		border-right: 0 none;
+	}
+	.col-familia2:nth-child(3n) {
+		border-right: 0 none;
+	}
+	.Titulares {
+		font-size: 13px;
+	}
+	A.Titulares:hover {
+		font-size: 13px;
+	}
+	#posicion2 img {
+		max-height: 140px;
+		width: auto;
+	}
+	.col-familia2 {
+		height: 390px;
+	}
+	.col-familia-search:nth-child(2n) {
+	    border-right: 0 none;
+	}
+	.imgproducto #imagenactual{
+		width: 100%;
+	}
+	em.verde{
+		color: #559944;
+	}
+	.addtocartmobile{
+		border: 1px solid #f00;
+		padding: 6px;
+		width: 100%;
+		display: block;
+		font-size: 20px;
+		color: #fff;
+		background-color: #D44028;
+	}
+	.addtocartmobile:hover{
+		border: 1px solid #D44028;
+		font-size: 20px;
+		color: #D44028;
+		background-color: #fff;
+	}
+	.addtocartmobile .glyphicon{
+		font-size: 20px;
+	}
+	.ofert{
+		color: #D44028;
+		text-decoration: line-through;
+	}
+}
+.fondoRojo {
+	background-color: #D44028;
+	color: #FFF;
+}
+@media screen and (max-width: 768px) {
+.campocorte {
+	width:50%;
+}
+.separadoroculto {
+	clear:both;
+	height:5px;
+	display:block;
+}
+.ocultarmobile {
+	display:none;
+}
+	#slideshow2 {
+	    height: auto !important;
+		float: left;
+		width: 100%;
+		padding-top: 75%;
+	}
+	#slideshow3 {
+	    height: auto !important;
+	    float: right;
+		width: 100%;
+		padding-top: 75%;
+	}
+	.col-familia-search {
+	    border-right: 0 none;
+	}
+	.ordenPaginadorListado {
+		height: auto;
+		overflow: hidden;
+	}
+	.col-familia:nth-child(3n) {
+		border-right: solid 1px #D44028;
+		border-bottom: solid 1px #D44028;
+	}
+	.col-familia2:nth-child(3n) {
+		border-right: solid 1px #D44028;
+		border-bottom: solid 1px #D44028;
+	}
+	.col-familia-rel:nth-child(5n) {
+		border-right: solid 1px #D44028;
+		padding: 15px;
+		height: 270px;
+	}
+	.col-familia:nth-child(2n) {
+		border-right: 0 none;
+	}
+	.col-familia2:nth-child(2n) {
+		border-right: 0 none;
+	}
+	.col-familia-rel:nth-child(2n) {
+		border-right: 0 none;
+	}
+	.titficha{
+		display: none;
+	}
+	div .pull-right{
+		float:left!important;
+	}
+	.breadcrums{
+		display: none;
+	}
+	.breadcrumsmobile{
+		display: block;
+	}
+
+	.botonActualizar {
+		width:auto;
+		padding:2px;
+		text-transform:uppercase;
+		background-color:#EBEBEB;
+		color:#D44028;
+		font-size:9px;
+		border-radius: 0px;
+		border:1px solid #CCC;
+		fotn-weight:bold;
+		margin-top:3px;
+	}
+}
+@media screen and (max-width: 480px) {
+.campocorte {
+	width:50%;
+}
+	#slideshow {
+	    height: 120px !important;
+	}
+	#slideshow2 {
+	    height: auto !important;
+	    padding-top: 70%;
+	}
+	#slideshow3 {
+	    height: auto !important;
+	    padding-top: 70%;
+	}
+	.lateral {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.headlateral {
+		background-position: center center;
+	}
+	.col-familia {
+		height: 290px;
+	}
+	.col-familia2 {
+		height: 390px;
+	}
+	.imgproducto {
+		border: none;
+	}
+	div#TB_window {
+		top: 0;
+		position: fixed;
+		overflow-y: scroll !important;
+		overflow-x: hidden;
+		height: 100% !important;
+		-webkit-overflow-scrolling: touch;
+	}
+	div#TB_window iframe {
+		overflow-y: scroll !important;
+		-webkit-overflow-scrolling: touch;
+	}
+	#list_submenu {
+		float: left !important;
+		padding: 0;
+	}
+	.col-tienda {
+		border: none;
+		height: auto;
+	}
+	.Titulares {
+		font-size: 12px;
+	}
+	A.Titulares:hover {
+		font-size: 12px;
+	}
+	#posicion2 img {
+		max-height: 100px;
+		width: auto;
+	}
+
+	.TextoMenuDestacadosOn span{
+		font-size: 12px;
+	}
+	.TextoMenuDestacadosOn span.telefono{
+		font-size: 15px;
+	}
+	.titficha{
+		display: none;
+	}
+	div .pull-right{
+		float:left!important;
+	}
+
+	.filtrobusqueda{
+		display: none;
+	}
+
+}
+
+
+
+#oferta { 
+	display: -webkit-box !important; 
+	display: -ms-flexbox !important; 
+	display: flex !important; 
+	-webkit-box-orient: vertical !important; 
+	-webkit-box-direction: normal !important; 
+	-ms-flex-flow: column !important; 
+	flex-flow: column !important; 
+	-webkit-box-pack: center !important; 
+	-ms-flex-pack: center !important; 
+	justify-content: center !important; 
+}
+.TextoPrecioAnterior,  .TextoPrecioAnterior + .TextoUdVenta {color: inherit!important}
+
+#main-menu {
+display: -webkit-box; 
+display: -ms-flexbox;
+display: flex;
+background-color: #D44028;
+margin-bottom: 0;
+-webkit-box-orient: horizontal;   
+-webkit-box-direction: normal;
+-ms-flex-flow: row;
+flex-flow: row;
+-ms-flex-pack: distribute !important;       
+justify-content: space-around !important;
+}
+#main-menu li{
+	width: 100% !important;
+	text-align:center !important;
+}
